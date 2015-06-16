@@ -1,4 +1,4 @@
-package com.twu.biblioteca;
+package com.twu;
 
 import java.util.ArrayList;
 
@@ -24,7 +24,7 @@ public class Books {
     public Books() {
     }
 
-    public void showBook() {
+    public void show() {
         System.out.print(Integer.toString(nBookId)+": ");
         System.out.print("author:" + strAuthor+" ; ");
         System.out.println("publish year:"+strPublishYear);

@@ -1,7 +1,8 @@
-package com.twu.biblioteca;
+package com.twu;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import com.twu.Books;
 
 /**
  * Created by 88888888 on 2015/6/3.
@@ -33,7 +34,7 @@ public class BookMenu {
         int i = 0;
         int nCnt = bookList.size();
         for (i=0;i<nCnt;++i){
-            bookList.get(i).showBook();
+            bookList.get(i).show();
         }
     }
 
