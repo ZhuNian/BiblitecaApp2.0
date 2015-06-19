@@ -3,7 +3,7 @@ package com.twu;
 import java.util.ArrayList;
 
 /**
- * Created by 88888888 on 2015/6/3.
+ * Created by ZN on 2015/6/3.
  */
 public class Books {
     private String strAuthor;

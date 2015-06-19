@@ -2,10 +2,13 @@ package com.twu;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
 import com.twu.Books;
 
+import static com.twu.Item.putMsg;
+
 /**
- * Created by 88888888 on 2015/6/3.
+ * Created by ZN on 2015/6/3.
  */
 public class BookMenu {
     ArrayList<Books> bookList = new ArrayList<Books>();//可以出借的书
@@ -139,7 +142,4 @@ public class BookMenu {
         return;
     }
 
-    public static void putMsg(String str){
-        System.out.println(str);
-    }
 }
